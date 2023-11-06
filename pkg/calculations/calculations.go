@@ -6,6 +6,7 @@ import (
 )
 
 func Calculate(n int64, logging bool) int64 {
+
 	if logging {
 		log.SetOutput(os.Stdout)
 
